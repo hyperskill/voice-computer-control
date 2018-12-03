@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.hyperskill.voice</groupId>
+  <groupId>org.hyperskill.voice</groupId>
   <artifactId>voice-computer-control</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -32,7 +32,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.hyperskill.voice.Main</mainClass>
+                  <mainClass>org.hyperskill.voice.Main</mainClass>
                 </manifest>
               </archive>
               <descriptorRefs>
