@@ -1,4 +1,4 @@
-package com.hyperskill.voice;
+package org.hyperskill.voice;
 
 public class Main {
     public static void main(String[] args) {
