@@ -2,7 +2,6 @@ package org.hyperskill.voice;
 import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
-import edu.cmu.sphinx.result.WordResult;
 public class Main {
     public static void main(String[] args) throws Exception {
         Configuration configuration = new Configuration();
