@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+* JSGF Grammar
+*/
+
+grammar grammar;
+
+public <greetings>  = ( hello | hi | salute );
+public <attributes> = ( time | date);
+public <commands> = ( show ){1}<attributes>{1}; //at this line we can attach words from group attributes to command from group commands. In {} brackets indicates the number of attributes.
